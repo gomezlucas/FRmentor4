@@ -474,3 +474,36 @@ header {
 
     }
 }
+
+
+
+@media only screen and (max-width: 450px) {
+
+header{
+    font-size: 15px;
+    grid-template-columns: 28% auto;
+}
+
+.navBar__logo{
+    width: 75%;
+}
+
+.navBar__logo img{
+    width: 100%;
+}
+
+.inputEmail{
+    width: 89%;
+    padding: 8px 10px;
+
+}
+
+.footer{
+    padding: 20% 2% 5% 5%;
+}
+
+.homeSection__button {
+    padding: 8px 49px;
+    
+
+}
