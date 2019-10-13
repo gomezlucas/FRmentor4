@@ -364,8 +364,11 @@ header {
     justify-content: center;
     align-items: center;
     margin: 6px;
-
 }
+
+
+
+
 
 /* Media query */
 @media only screen and (max-width: 800px) {
@@ -505,5 +508,23 @@ header{
 .homeSection__button {
     padding: 8px 49px;
     
+}
 
 }
+.attribution {
+    background-color: hsl(216, 53%, 9%);
+    font-size: 11px;
+    text-align: center;
+    position: relative;
+    margin: 0;
+   }
+
+  .attribution a 
+  {
+    color: white;
+    text-decoration: none;
+    color: hsl(176, 68%, 64%);
+ 
+}
+
+  
